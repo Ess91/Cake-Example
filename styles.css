@@ -241,6 +241,33 @@ span:nth-child(2) {
   box-shadow: inset 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.icons {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+
+#diamond {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: black;
+  position: relative;
+  top: -50px;
+}
+#diamond:after {
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: black;
+}
+
 
 @media screen and (max-width: 991px) {
 .container {
