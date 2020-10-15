@@ -435,7 +435,7 @@ span:nth-child(2) {
 
 
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 998px) {
  .icons {
    visibility: hidden;
  }
@@ -446,7 +446,7 @@ span:nth-child(2) {
  }
 
  .cake-info p {
-   width: 20em;
+   width: 33em;
  }
 
 
@@ -467,21 +467,44 @@ span:nth-child(2) {
   font-size: 20px;
 }
 
+.home-boxes:nth-child(1) img {
+order: 4;
+
+}
+
+.home-boxes:nth-child(2) img{
+order: 3;
+margin: 0 auto;
+display: block;
+}
+
+.home-boxes:nth-child(3) img{
+order: 2;
+margin: 0 auto;
+display: block;
+}
+
+.home-boxes:nth-child(4) {
+order: 5;
+}
+
+.home-boxes:nth-child(5) {
+order: 1;
+}
+
 .home-boxes:nth-child(4) {
  margin-left: 20px;
 }
+
+.home-boxes:nth-child(5) {
+ padding-top: 0;
+
+}
+
 
 
 
 .home-boxes img {
   width: 415px;
 }
-
-/*.container ul {
-  padding: 50px;
 }
-
-.boxes {
-  flex-direction: column;
-}
-}*/
