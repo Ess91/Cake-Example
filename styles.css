@@ -218,7 +218,7 @@ span:nth-child(2) {
 }
 
 .banner-image {
-  background-image: url(../Cakes/images/zahra-tavakoli-fard--uRrBqB53So-unsplash.jpg);
+  background-image: url(/images/zahra-tavakoli-fard--uRrBqB53So-unsplash.jpg);
   height: 405px;
   background-position: center;
   background-repeat: no-repeat;
